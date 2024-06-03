@@ -1,0 +1,15 @@
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/bin/Debug/net8.0/ModuloOrientacaoAObjetos
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/bin/Debug/net8.0/ModuloOrientacaoAObjetos.deps.json
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/bin/Debug/net8.0/ModuloOrientacaoAObjetos.runtimeconfig.json
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/bin/Debug/net8.0/ModuloOrientacaoAObjetos.dll
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/bin/Debug/net8.0/ModuloOrientacaoAObjetos.pdb
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/obj/Debug/net8.0/ModuloOrientacaoAObjetos.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/obj/Debug/net8.0/ModuloOrientacaoAObjetos.AssemblyInfoInputs.cache
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/obj/Debug/net8.0/ModuloOrientacaoAObjetos.AssemblyInfo.cs
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/obj/Debug/net8.0/ModuloOrientacaoAObjetos.csproj.CoreCompileInputs.cache
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/obj/Debug/net8.0/ModuloOrientacaoAObjetos.sourcelink.json
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/obj/Debug/net8.0/ModuloOrientacaoAObjetos.dll
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/obj/Debug/net8.0/refint/ModuloOrientacaoAObjetos.dll
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/obj/Debug/net8.0/ModuloOrientacaoAObjetos.pdb
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/obj/Debug/net8.0/ModuloOrientacaoAObjetos.genruntimeconfig.cache
+/home/mariana/github.com/CursoDotnetBalta/ModuloOrientacaoAObjetos/obj/Debug/net8.0/ref/ModuloOrientacaoAObjetos.dll
