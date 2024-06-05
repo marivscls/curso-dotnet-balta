@@ -3,7 +3,6 @@ namespace ModuloOrientacaoAObjetos.ContentContext;
 
 public class Module
 {
-    //constructor para inicializar os objetos
     public Module()
     {
         Lectures = new List<Lecture>();

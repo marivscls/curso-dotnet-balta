@@ -7,10 +7,9 @@ public class Career : Content
         : base(title, url)
     {
         Items = new List<CareerItem>();
-
     }
+
     public IList<CareerItem> Items { get; set; }
-    public int TotalCourses => Items.Count();
-    //Expression body
+    public int TotalCourses => Items.Count;
 }
 

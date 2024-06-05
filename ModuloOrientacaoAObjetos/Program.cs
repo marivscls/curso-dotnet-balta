@@ -1,11 +1,12 @@
-﻿using ModuloOrientacaoAObjetos.ContentContext;
+﻿using Balta.SubscriptionContext;
+using ModuloOrientacaoAObjetos.ContentContext;
 using ModuloOrientacaoAObjetos.ContentContext.Enums;
+using ModuloOrientacaoAObjetos.SubscriptionContext;
 
 class Program
 {
     static void Main(string[] args)
     {
-        //instancia da lista de artigos
         var articles = new List<Article>();
         articles.Add(new Article("Artigo sobre OOP", "orientacao-objetos"));
         articles.Add(new Article("Artigo sobre Csharp", "Csharp"));
@@ -19,7 +20,6 @@ class Program
             Console.WriteLine(article.Url);
         }
 
-        //instancia da lista de cursos
         var courses = new List<Course>();
         var courseOOP = new Course("Fundamentos OOP", "fundamentos-oop");
         var courseCsharp = new Course("Fundamentos C#", "fundamentos-c#");
@@ -41,15 +41,26 @@ class Program
 
         careers.Add(careerDotnet);
 
+
         foreach (var career in careers)
         {
             Console.WriteLine(career.Title);
             foreach (var item in career.Items.OrderBy(x => x.Order))
             {
                 Console.WriteLine($"{item.Order} - {item.Title}");
+                Console.WriteLine(item.Course?.Title);
+                Console.WriteLine(item.Course?.Level);
+
+                foreach (var notification in item.Notifications)
+                {
+                    Console.WriteLine($"{notification.Property} - {notification.Message}");
+                }
             }
 
-        }
+            var payPalSubscription = new PayPalSubscription();
+            var student = new Student();
 
+            student.CreateSubscription(payPalSubscription);
+        }
     }
 }
