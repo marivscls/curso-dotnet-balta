@@ -17,7 +17,6 @@ class Program
             Console.WriteLine(article.Id);
             Console.WriteLine(article.Title);
             Console.WriteLine(article.Url);
-
         }
 
         //instancia da lista de cursos
@@ -53,6 +52,4 @@ class Program
         }
 
     }
-
 }
-//
