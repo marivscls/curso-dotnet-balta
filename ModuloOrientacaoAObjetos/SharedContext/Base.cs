@@ -1,4 +1,4 @@
-using ModuloOrientacaoAObjetos.NotificationsContext;
+using Balta.NotificationContext;
 
 namespace ModuloOrientacaoAObjetos.SharedContext;
 
