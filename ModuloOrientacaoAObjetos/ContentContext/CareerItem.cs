@@ -1,19 +1,27 @@
+using ModuloOrientacaoAObjetos.SharedContext;
+
 namespace ModuloOrientacaoAObjetos.ContentContext;
 
-public class CareerItem
+public class CareerItem : Base
 {
-    public CareerItem(int order, string title, string description, Course course)
+    public CareerItem(
+        int order,
+        string title,
+        string description,
+        Course course)
     {
+        if (course == null)
+            AddNotification(new NotificationContext.Notification("Course", "Curso inválido"));
+
         Order = order;
         Title = title;
-        this.description = description;
+        Description = description;
         Course = course;
     }
 
     public int Order { get; set; }
     public string Title { get; set; }
-    public string description { get; set; }
+    public string Description { get; set; }
     public Course Course { get; set; }
-
 }
 
