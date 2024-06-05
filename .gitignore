@@ -1,2 +1,3 @@
-./**/obj/Debug/*
-./**/bin
+
+**/bin
+**/obj/Debug
