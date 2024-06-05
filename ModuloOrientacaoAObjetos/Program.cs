@@ -18,7 +18,6 @@ class Program
             Console.WriteLine(article.Id);
             Console.WriteLine(article.Title);
             Console.WriteLine(article.Url);
-
         }
 
         var courses = new List<Course>();
@@ -62,8 +61,6 @@ class Program
             var student = new Student();
 
             student.CreateSubscription(payPalSubscription);
-
-            //
         }
     }
 }
