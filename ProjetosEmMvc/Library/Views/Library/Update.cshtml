@@ -1,0 +1,31 @@
+@model LivrosEntity
+
+@{
+    ViewData["Title"] = "Edit Book";
+}
+
+<h1>Edit Book</h1>
+
+<form asp-action="Update" method="post">
+    <div class="form-group">
+        <label asp-for="Id_Livro"></label>
+        <input asp-for="Id_Livro" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="Título"></label>
+        <input asp-for="Título" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Autor"></label>
+        <input asp-for="Autor" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Preço"></label>
+        <input asp-for="Preço" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Estoque"></label>
+        <input asp-for="Estoque" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
